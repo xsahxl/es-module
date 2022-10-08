@@ -15,3 +15,21 @@
 
 - ES Modules 导入的模块会被预解析，以便在代码运行前导入;
 - 在 CommonJS 中，模块将在运行时解析；
+
+# ts
+
+```
+npx tsc --init
+
+Created a new tsconfig.json with:
+                                                                                                                     TS
+  target: es2016
+  module: commonjs
+  strict: true
+  esModuleInterop: true
+  skipLibCheck: true
+  forceConsistentCasingInFileNames: true
+
+
+You can learn more at https://aka.ms/tsconfig
+```
